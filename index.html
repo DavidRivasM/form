@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section class="fondo">
+        <div class="container">
+            <div class="row vh-100">
+                <div class="col-8 mx-auto my-auto">
+                    <div class="card">
+                        <div class="card-header">
+                          <h1>Payment form example</h1>
+                        </div>
+
+                        <div class="card-body">
+                        <div class="alert alert-danger" role="alert">
+                            Some fields are missing!
+                        </div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label for="card" class="form-label">Card:</label> 
+                                        <input type="text" class="form-control" id="card" placeholder="XXXXXX">
+                            
+                                    </div>   
+                                    <div class="col-3">
+                                        <label for="inputLastName" class="form-label">CVC:</label> 
+                                        <input type="text" class="form-control" id="inputLastName" placeholder="000">
+                                    </div>
+
+                                    <div class="col-3">
+                                        <label for="amount" class="form-label">Amount:</label> 
+                                        <input type="text" class="form-control" id="amount" placeholder="Amount">
+                                        <img style="position: relative; top: -35px; left: -22px;" src="https://image.flaticon.com/icons/png/512/44/44715.png">
+                                     </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-6">
+                                        <label for="fristname" class="form-label">Frist name:</label> 
+                                        <input type="text" class="form-control" id="fristname">
+                                    </div>   
+                                    <div class="col-6">
+                                        <label for="lastname">Last name:</label>
+                                        <input type="Text" class="form-control" id="secondname" >
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-6">
+                                        <label for="city">City:</label>
+                                        <input type="Text" class="form-control">
+                                    </div>   
+                                    <div class="col-3">
+                                            <label for="state">State:</label>
+                                            <select class="form-control" id="state">
+                                                <option selected>Pick a state</option>
+                                                <option>Florida</option>
+                                                <option>New York</option>
+                                            </select>
+                                    </div>
+                                    <div class="col-3">
+                                        <label for="postalcode">Postal code:</label>
+                                        <input type="Text" class="form-control" >
+                                     </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p>We accept:</p>
+                                        <div class="btn-toolbar badge bg-secondary" role="toolbar" aria-label="Toolbar with button groups">
+                                            <div class="btn-group me-2" role="group" aria-label="First group">
+
+                                                <label>
+                                                    <input type="radio" name="test" value="small" checked>
+                                                    <img src="https://image.flaticon.com/icons/png/512/24/24834.png">
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="test" value="small" checked>
+                                                    <img src="https://i.pinimg.com/originals/0a/01/d4/0a01d47ef231cdbc18c04192f2c839ee.png">
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="test" value="small" checked>
+                                                    <img src="https://image.flaticon.com/icons/png/512/24/24834.png">
+                                                </label>
+                                                <label>
+                                                    <input type="radio" name="test" value="small" checked>
+                                                    <img src="https://i.pinimg.com/originals/0a/01/d4/0a01d47ef231cdbc18c04192f2c839ee.png">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                    <div class="col-6">
+                                        <label for="Mesage">Message:</label>
+                                        <textarea id="mesage" class="form-control" rows="4" cols="25"> </textarea>
+                                        <span>Add any note here</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="card-footer d-flex justify-content-end">
+                            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group me-2" role="group" aria-label="First group">
+                                    <button type="button" class="btn btn-secondary me-2">Secondary</Cancel>
+                                    <button type="button" class="btn btn-primary">Primary</Send>
+                                </div>
+                                </div>
+                              </div>
+                        </div>  
+                      </div>
+                    </div>
+                </div>
+            </div>   
+        </div>    
+    </section>
+</body>
+</html>
